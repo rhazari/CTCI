@@ -1,3 +1,4 @@
+//Check is a string has all unique characters
 #include <iostream>
 #include <string>
 #include <map>
