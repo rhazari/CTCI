@@ -1,3 +1,4 @@
+//Check if a link list is a palindrome or not
 #include <iostream>
 #include <cstdlib>
 #include <stack>
