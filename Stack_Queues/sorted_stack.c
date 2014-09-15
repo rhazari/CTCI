@@ -1,3 +1,4 @@
+//Program for a sorted stack with display (peek()) function
 #include <stdio.h>
 #include <stdlib.h>
 
