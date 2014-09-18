@@ -1,4 +1,3 @@
-
 def num_set_bits(num):
 	count = 0
 	while(num):

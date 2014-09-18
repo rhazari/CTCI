@@ -1,4 +1,3 @@
-
 def swap_odd_even(number):
 	m1 = 0x55555555
 	m2 = 0xaaaaaaaa

@@ -1,4 +1,3 @@
-
 def check_two_power(num):
 	if(num & (num-1) == 0 and num != 0):
 		return 1

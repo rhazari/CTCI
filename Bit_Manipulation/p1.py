@@ -8,6 +8,7 @@ mask = 1<<((i-j)+1)
 mask = mask-1
 mask <<= j
 mask = ~mask
+
 print mask
 
 print (N & mask) |(M<<j)
