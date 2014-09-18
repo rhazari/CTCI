@@ -1,3 +1,4 @@
+#Reverse the byte order of a number
 
 size_of_int = 4
 def change_byte_order(number):
