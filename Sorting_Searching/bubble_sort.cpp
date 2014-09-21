@@ -2,6 +2,7 @@
 #include <new>
 
 #define SIZE 10
+
 using namespace std;
 
 void bubble_sort(int *arr, int len)

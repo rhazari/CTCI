@@ -2,7 +2,6 @@
 #include <new>
 
 #define SIZE 10
-
 using namespace std;
 
 void insertion_sort(int *arr, int len)

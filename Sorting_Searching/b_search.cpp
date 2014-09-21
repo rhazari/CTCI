@@ -4,7 +4,6 @@
 
 #define SIZE 10
 #define MAX 100
-
 using namespace std;
 
 void insertion_sort(int *arr, int len)

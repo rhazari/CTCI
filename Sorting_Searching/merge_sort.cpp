@@ -4,6 +4,7 @@
 
 #define SIZE 20
 #define MAX 500
+
 using namespace std;
 
 void display(int *arr, int len)
