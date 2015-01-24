@@ -1,4 +1,5 @@
-
+//Program to check if a binary tree is balanced or not
+//Height of any 2 subtrees must not differ by more than 1
 #include <iostream>
 #include <cstdlib>
 #include <algorithm>

@@ -1,4 +1,4 @@
-
+//Program to create a binary tree of minimal height from an array
 #include <iostream>
 #include <cstdlib>
 #include <algorithm>
