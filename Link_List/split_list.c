@@ -52,6 +52,46 @@ struct node* split(struct node* head, int value)
 	
 }
 
+struct node *split_2(struct node *head, int key)
+{
+    node *l1_start = NULL, *l1_end;
+    node *l2_end, *l2_start = NULL;
+    
+    node *ptr = head;
+    while(ptr)
+    {
+        if(ptr->data <  key)
+        {
+            if(l1_start == NULL)
+            {
+                l1_start = ptr;
+                l1_end = l1_start;
+            }
+            else
+            {
+                l1_end->next = ptr;
+                l1_end = ptr;
+            }
+        }
+        else
+        {
+            if(l2_start == NULL)
+            {
+                l2_start = ptr;
+                l2_end = l2_start;
+            }
+            else
+            {
+                l2_end->next = ptr;
+                l2_end = ptr;
+            }
+        }
+        ptr = ptr->next;
+    }
+    l1_end->next = l2_start;
+    l2_end->next = NULL;
+    return l1_start;
+}
 
 int main()
 {
@@ -72,6 +112,9 @@ int main()
 	int key = 9;		
 	node* h2 = split(head,key);
 	print_list(h2);
+	
+	node* h3 = split_2(head,key);
+	print_list(h3);
     
     return 0;
 }
